@@ -15,6 +15,7 @@
 		5264C2232C311A5800B34C47 /* AwaitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264C2222C311A5800B34C47 /* AwaitUITests.swift */; };
 		5264C2252C311A5800B34C47 /* AwaitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264C2242C311A5800B34C47 /* AwaitUITestsLaunchTests.swift */; };
 		5264C2322C311A9000B34C47 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264C2312C311A9000B34C47 /* ViewModel.swift */; };
+		5264C2342C31369E00B34C47 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264C2332C31369E00B34C47 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		5264C2222C311A5800B34C47 /* AwaitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitUITests.swift; sourceTree = "<group>"; };
 		5264C2242C311A5800B34C47 /* AwaitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5264C2312C311A9000B34C47 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5264C2332C31369E00B34C47 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				5264C2312C311A9000B34C47 /* ViewModel.swift */,
 				5264C2072C311A5700B34C47 /* AwaitApp.swift */,
 				5264C2092C311A5700B34C47 /* ContentView.swift */,
+				5264C2332C31369E00B34C47 /* NetworkManager.swift */,
 				5264C20B2C311A5800B34C47 /* Assets.xcassets */,
 				5264C20D2C311A5800B34C47 /* Preview Content */,
 			);
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5264C2342C31369E00B34C47 /* NetworkManager.swift in Sources */,
 				5264C20A2C311A5700B34C47 /* ContentView.swift in Sources */,
 				5264C2322C311A9000B34C47 /* ViewModel.swift in Sources */,
 				5264C2082C311A5700B34C47 /* AwaitApp.swift in Sources */,

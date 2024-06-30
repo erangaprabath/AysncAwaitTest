@@ -10,8 +10,24 @@ import SwiftUI
 
 class DownloadImageUsingAsyncViewModel:ObservableObject{
     @Published var image:UIImage? = nil
+    let dataLoader = NetworkManager()
     
-    func fetchImages(){
-        self.image = UIImage(systemName: "heart.fill")
+    func fetchImages() async{
+//        dataLoader.downloadImageWithEscaping { [weak self] image, error in
+//            if let image = image{
+//                DispatchQueue.main.async {
+//                    self?.image = image
+//                }
+//            }else {
+//                print(error ?? "")
+//            }
+//            
+//        }
+   
+        let image  = try? await dataLoader.downloadWithAysnc()
+      await MainActor.run {
+          self.image = image
+        }
+   
     }
 }

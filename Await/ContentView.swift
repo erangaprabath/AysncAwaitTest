@@ -19,7 +19,9 @@ struct ContentView: View {
             }
         }.padding()
             .onAppear(perform: {
-                viewmodel.fetchImages()
+                Task{
+                    await viewmodel.fetchImages()
+                }
             })
     }
 }
